@@ -8,6 +8,10 @@ import routes from "./config/router";
 import Vant from 'vant'
 import 'vant/lib/index.css';
 
+// 引入Element-UI
+import ElementPlus from 'element-plus'
+import 'element-plus/dist/index.css'
+
 const app = createApp(App);
 
 // 产检
@@ -20,6 +24,7 @@ export default router
 
 app.use(router)
 app.use(Vant);
+app.use(ElementPlus);
 
 app.mount('#app')
   .$nextTick(() => {

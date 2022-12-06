@@ -12,5 +12,8 @@
 </script>
 
 <style scoped>
-
+#content {
+  width: 786px;
+  height: 406px;
+}
 </style>

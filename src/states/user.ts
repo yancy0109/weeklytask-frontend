@@ -1,5 +1,5 @@
 import {ref} from "vue";
-import {UserType} from "../mdels/user";
+import {UserType} from "../models/user";
 
 let currentUser : UserType
 

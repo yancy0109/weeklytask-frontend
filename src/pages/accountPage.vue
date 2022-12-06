@@ -22,14 +22,7 @@ import router from "../main";
  * */
 const viewFor = ref(1)
 
-const showRegister = () => {
- viewFor.value = 2
-}
-const showLogin = () => {
-  viewFor.value = 1
-}
-
-
+console.log(new Date())
 const doResigterDialog = () => {
   Dialog.confirm({
     title: '请问要前往注册吗',
