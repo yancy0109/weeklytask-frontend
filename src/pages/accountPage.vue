@@ -22,7 +22,6 @@ import router from "../main";
  * */
 const viewFor = ref(1)
 
-console.log(new Date())
 const doResigterDialog = () => {
   Dialog.confirm({
     title: '请问要前往注册吗',

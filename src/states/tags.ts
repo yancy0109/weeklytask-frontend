@@ -1,4 +1,4 @@
-import {UserTagsType} from "../models/usertags";
+import {UserTagsType} from "../models/tag/usertags";
 import {setLocalUserTags} from "../service/tags";
 import {Toast} from "_vant@3.6.6@vant";
 import router from "../main";
